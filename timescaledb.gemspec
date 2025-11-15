@@ -25,7 +25,6 @@ Gem::Specification.new do |spec|
   spec.executables   = ["tsdb"]
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "pg", "~> 1.2"
   spec.add_dependency "activerecord"
   spec.add_dependency "activesupport"
   spec.add_dependency "ostruct"
